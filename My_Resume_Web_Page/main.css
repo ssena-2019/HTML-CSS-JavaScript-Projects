@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* navbar section */
+
+#navbar {
+    display: flex;
+    padding: 0.75em;
+    width: 100%;
+    height: 7em;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(240, 220, 195);
+    padding: 10px 5px 10px 5px;
+    border-radius: 3px;
+}
+
+#navbar ul li a:hover {
+    background-color: rgb(240, 220, 195);
+    color: #1b1560;
+    /* border: 1px solid ; */
+}
+
+
+#navbar .link-field {
+    text-align: end;
+    margin: 10px;
+    width: 80%;
+}
+
+#navbar .name-field {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+    text-align:left;
+    width: 20%;
+}
+
+/* home section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    /* border-bottom: 1px solid grey; */
+}
+
+#home img {
+    max-width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+#home .text-center h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    /* color: rgb(35, 118, 71); */
+    color: #1b1560;
+    padding: 1px;
+} 
+
+#home .text-center p {
+    font-size: 1rem;
+    /* color: rgb(35, 118, 71); */
+    color: #1b1560;
+    text-align: center;
+    opacity: 0.8;
+    font-style: italic;
+    padding: 3px;
+}
+
+/* about me section */
+
+#about-me {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+    /* border-bottom: 1px solid grey; */
+}
+
+#about-me .about-me-info {
+    border: 1px solid rgb(69, 167, 112);
+    width: 100%;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin: 5px;
+    float: left;
+    padding: 1rem;
+}
+
+#about-me .box-paragraph h3 {
+    color: rgb(69, 167, 112);
+    padding: 0.25rem;
+}
+
+/* education section */
+
+#education {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 2rem;
+    /* border-bottom: 1px solid grey; */
+}
+
+#education .schools {
+    border: 1px solid rgb(69, 167, 112);
+    width: 100%;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin: 5px;
+    float: left;
+    padding: 1rem;
+}
+
+#education .schools h3 {
+    color: rgb(69, 167, 112);
+    padding: 2px;
+}
+
+#education .schools h4, h5 {
+    padding: 2px;
+}
+
+
+/* experience section */
+
+#experience {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    padding: 2rem;
+}
+
+#experience .experiences {
+    border: 1px solid rgb(69, 167, 112);
+    width: 100%;
+    border-radius: 3px;
+    font-size: 0.9em;
+    margin: 5px;
+    float: left;
+    padding: 1rem;
+}
+
+#experience .experiences h3 {
+    color: rgb(69, 167, 112);
+    padding: 2px;
+}
+
+#experience .experiences h4 {
+    padding: 2px;
+}
+
+/* footer - contact section */
+
+#contact {
+    display: flex;
+    width: 100%;
+    padding: 0.75rem;
+    align-items: center;
+
+}
+
+#contact .footer-contact {
+    display: flex;
+    width: 700px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto auto auto auto;
+
+}
+
+
+
+
+
+

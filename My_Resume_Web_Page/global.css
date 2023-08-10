@@ -1,0 +1,55 @@
+
+/* Text */
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1rem;
+    color: rgb(240, 220, 195);
+    text-align: center;
+    padding: 3px;
+}
+
+.heading-medium {
+    /* border: 2px solid #842F2C;
+    border-radius: 10px; */
+    text-align: center;
+    font-size: 1.5rem;
+    color: #1b1560;
+    padding: 1px;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+    color: #1b1560;
+    padding: 3px;
+}
+
+
+/* Colors */
+
+.bg-dark-green {
+    background-color: rgb(69, 167, 112);
+}
+
+.bg-light-green {
+    background-color: rgb(137, 243, 137);
+}
+
+.about-me-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    padding: 3rem;
+}
+
+.box-paragraph {
+    flex: 1;
+    font-size: 0.9em;
+    margin: 5px;
+    padding: 1rem;
+} 
+
