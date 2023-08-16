@@ -1,0 +1,10 @@
+
+
+.input-form {
+    border: 1px solid black;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
