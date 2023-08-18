@@ -1,0 +1,50 @@
+/* .container {
+    background-color: blanchedalmond;
+} */
+
+.container-my {
+    /* background-color: rgb(221, 253, 210); */
+    border: 2px solid rgb(60, 58, 156);
+    width: 600px;
+    height: 600px;
+}
+
+/* .card-bg {
+    background-color: rgb(221, 253, 210);
+} */
+
+.header {
+    color: rgb(72, 20, 121);
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.btn-add {
+    background-color: rgb(180, 121, 236);
+    border-color: rgb(180, 121, 236);
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-add:hover {
+    background-color: rgb(117, 61, 169);
+    color: white;
+}
+
+.btn-delete {
+    background-color: rgb(60, 58, 156);
+    border-color: rgb(60, 58, 156);
+    margin-top: 10px;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: rgb(30, 36, 112);
+    color: white;
+}
+
+.card-body h5 {
+    color: rgb(72, 20, 121);
+}
