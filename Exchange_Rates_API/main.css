@@ -1,0 +1,36 @@
+#home {
+    background-color: rgb(254, 234, 203);
+    height: 900px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    width: 50%;
+    height: 200px;
+    border: 2px solid rgb(67, 197, 121);
+}
+
+.card-content, .input-field {
+    padding: 10px;
+}
+
+.card-title {
+    color: rgb(190, 21, 21);
+    font-weight: bold;
+}
+
+#outputFirst, #outputSecond, #span_blank {
+    color: black;
+    font-weight: bold;
+}
+
+#currency-form {
+    padding: 10px;
+}
+
+#firstCurrency, #secondCurrency {
+    padding: 5px;
+}
